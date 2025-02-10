@@ -152,6 +152,11 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ---
 
+## Domain
+
+bookflix-git-main-onyeneke-favours-projects.vercel.app
+
+
 ## Acknowledgments
 
 - **Placeholder.com**: For providing placeholder images.
