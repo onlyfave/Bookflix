@@ -1,6 +1,6 @@
 # Bookflix - Your Online E-Library
 
-![Screenshot 2025-02-10 223700](https://github.com/user-attachments/assets/77541b6b-1df1-44e8-9e02-af0a60f3f0a9)
+![Screenshot 2025-02-10 224100](https://github.com/user-attachments/assets/7cd37e6d-92d1-4dd7-a8b9-f57c0f5b5856)
 
 Bookflix is an online e-library website where users can browse a collection of books, search for specific titles, authors, or genres, and toggle between light and dark modes for a comfortable reading experience. The website is built using **HTML**, **CSS**, and **JavaScript**.
 
@@ -91,9 +91,6 @@ bookflix/
 
 3. **Toggle Dark Mode**:
    - Click the "Dark Mode" button in the header to switch between light and dark themes.
-
-4. **Load More Books**:
-   - Click the "Load More" button at the bottom of the book list to display additional books.
 
 ---
 
