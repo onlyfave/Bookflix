@@ -1,0 +1,171 @@
+/* Light Mode (Default) */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding-top: 30px;
+  padding: 20px;
+  min-height: 70px;
+  border-bottom: #FF0080 3px solid; /* Updated color */
+}
+
+header h1 {
+  float: left;
+  margin: 0;
+  padding: 0;
+  font-size: 2.5rem;
+  color: #FF0080; /* Updated color */
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#darkModeToggle {
+  background: #FF0080; /* Updated color */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.search-bar {
+  padding: 20px 0;
+  background: #FF0080; /* Updated color */
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border: none;
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.books {
+
+  padding: 20px 0;
+}
+
+.book-list {
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.book {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: calc(25% - 40px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.book:hover {
+  transform: scale(1.05);
+}
+
+.book h3 {
+  margin: 0 0 10px;
+  color: #FF0080; /* Updated color */
+}
+
+.book p {
+  margin: 0;
+  color: #555;
+}
+
+.load-more {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #FF0080; /* Updated color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode header {
+  background: #1a1a1a;
+}
+
+body.dark-mode .book {
+  background: #1e1e1e;
+  border-color: #333;
+  color: #ffffff;
+}
+
+body.dark-mode .book h3 {
+  color: #FF0080; /* Updated color */
+}
+
+body.dark-mode .book p {
+  color: #bbb;
+}
+
+body.dark-mode footer {
+  background: #1a1a1a;
+}
+  
+  
